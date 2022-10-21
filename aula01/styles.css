@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-rendering: optimizelegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --white: #fff;
+
+  --blue-100: #00082F;
+  --blue-600: #364FC7;
+  --blue-700: #4263EB;
+  --blue-900: #EDF2FF;
+
+  --rounded-md: 6px;
+  --rounded-full: 9999px;
+}
+
+body.dark {
+  --blue-100: #EDF2FF;
+  --blue-600: #4263EB;
+  --blue-700: #364FC7;
+  --blue-900: #00082F;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: var(--blue-900);
+  color: var(--blue-100);
+  height: inherit;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+/* Componentes */
+/* Avatar */
+
+.avatar {
+  width: 108px;
+  height: 108px;
+  border-radius: var(--rounded-full);
+  background: transparent;
+  border: 4px solid var(--blue-600);
+  padding: 4px;
+  user-select: none;
+  pointer-events: none;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  object-fit: cover;
+}
+
+/* Button */
+
+.btn {
+  all: unset;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px;
+  background-color: var(--blue-600);
+  color: var(--white);
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  padding: 16px;
+  border-radius: var(--rounded-md);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn i {
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: var(--blue-700);
+}
+
+/* Fim dos componentes */
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+
+  align-items: center;
+  gap: 6px;
+}
+
+header h1 {
+  margin-top: 14px;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 600;
+}
+
+header p {
+  font-family: 'Roboto mono';
+  color: var(--blue-100);
+  opacity: 0.8;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+.wrapper-buttons {
+  width: 100%;
+  max-width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.copy {
+  color: var(--blue-100);
+  opacity: 0.6;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.copy i {
+  color: red;
+}
+
+.copy a {
+  all: unset;
+  cursor: pointer;
+}
+
+.mode {
+  cursor: pointer
+}
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --white: #FFFFFF;
+    --pale-blue: #EDF2FF;
+    --one-blue: #4263EB;
+    --medium-blue: #364FC7;
+    --dark-blue: #00082F;
+
+
+}
+body{
+    background-color:var(--pale-blue);
+    
+}
+h2, p{
+    text-align: center;
+    padding: 10px;
+    color: var(--dark-blue);
+    
+}
+
+.copy{
+    font-size: 12px;
+    color: #00082F;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 505px;
+    border:1px solid --dark-blue;
+    margin-top: 60px;
+}
+.avatar{
+    width: 96px;
+    height: 96px;
+    border-radius: 50% ;
+    background-color: var(--white);
+    border: 3px solid var (--medium-blue);
+}
+img{
+    
+    width: 86px;
+    height: 85px;
+}
+.buttons{
+    
+    align-content: space-between;
+}
+button {
+
+    font-weight: 700;
+    width: 300px;
+    height: 80px;
+    background-color: var(--one-blue);
+    color: var(--white);
+    border-radius: 6px;
+    border: var(--one-blue);
+    margin-top: 16px;
+    font-size: 14px;
+    
+} 
+.instagram {
+    background-color: var(--medium-blue);
+} */

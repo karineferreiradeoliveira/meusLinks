@@ -18,6 +18,17 @@
     --rounded-m: 6px;
     --rounded-full: 9999px;
 } 
+
+.dark-mode :root {
+    /* colors */
+    --white: #fff;
+
+    --pink-100: #1F000B;
+    --pink-500: #A61E4D;
+    --pink-700: #D6336C;
+    --pink-900: #FFF0F6;
+
+}
 html {
     width: 100%;
 }

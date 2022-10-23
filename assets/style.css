@@ -19,7 +19,7 @@
     --rounded-full: 9999px;
 } 
 
-.dark-mode :root {
+.dark-mode:root {
     /* colors */
     --white: #fff;
 
@@ -28,7 +28,13 @@
     --pink-700: #D6336C;
     --pink-900: #FFF0F6;
 
+
 }
+
+.dark-mode:root{
+    color: var(--white);
+}
+
 html {
     width: 100%;
 }
@@ -58,6 +64,7 @@ h1,p {
     margin-top: 60px;
     
 }
+
 .avatar {
   
     width: 108px;
@@ -76,7 +83,6 @@ h1,p {
     height: 100%;
     border-radius: inherit;
     object-fit: cover;
-    
     
 }
 
@@ -117,4 +123,7 @@ i {
     font-weight: 500;
     font-size: 12px ;
 
+}
+label {
+    color: #1F000B;
 }

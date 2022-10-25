@@ -59,8 +59,6 @@ body {
     gap: 6px;
     width: 100%;
     max-width: 300px; 
-    "
-    "
 
 }
 
@@ -168,8 +166,10 @@ label {
 }
 
 .darki {
+    width: 100%;
     display: flex;
-    align-items: flex-end;
-
+    justify-content: flex-end;
     color: var(--pink-900);
+    cursor: pointer;
+   
 }

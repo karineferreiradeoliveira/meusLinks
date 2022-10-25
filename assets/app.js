@@ -1,7 +1,22 @@
+// Simple Version Dark-Mode
 const html = document.querySelector("html")
-const checkbox = document.querySelector("#switch")
+const darkMoon= document.querySelector(".ph-moon")
 
-checkbox.addEventListener("change", function() {
-    html.classList.toggle("dark-mode")
+
+darkMoon.addEventListener("click", function (){
+
+    if(darkMoon){
+
+        html.classList.toggle("dark-mode")
+    }
     
 })
+
+// DarkMode with LocaStorage
+
+// const theMoon = document.querySelector("#clickMoon")
+
+
+// if(localStorage.getItem("darkMode") === null){
+//     localStorage.setItem("darkMode", "false")
+// }
